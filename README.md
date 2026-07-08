@@ -66,7 +66,7 @@ AWS infrastructure.
         ├── removed.tf        # removed blocks (safe removal)
         └── terraform_test/   # Native terraform test (1.6+)
 
-## What You'll Learn
+
 
   Concept                           Where to Find It
   --------------------------------- ------------------------------------------
