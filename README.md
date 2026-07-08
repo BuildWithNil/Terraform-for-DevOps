@@ -190,6 +190,6 @@ terraform apply 2>&1 | tee debug.log
 
 ## Projects
 
-### Terraform with Ansible
+### Multi-Environment-Infrastructure-with-Terraform-Ansible
 
 [Get it here](https://github.com/BuildWithNil/Multi-Environment-Infrastructure-with-Terraform-Ansible.git)
