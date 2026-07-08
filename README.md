@@ -68,26 +68,26 @@ AWS infrastructure.
 
 
 
-  Concept                           Where to Find It
-  --------------------------------- ------------------------------------------
-  Provider & version constraints    `terraform.tf`
-  Variables with validation         `variables.tf`, `examples/validation.tf`
-  EC2, Security Groups, Key Pairs   `ec2.tf`
-  user_data bootstrapping           `ec2.tf` + `script.sh`
-  S3 with versioning & encryption   `s3.tf`
-  DynamoDB tables                   `dynamodb.tf`
-  Outputs                           `outputs.tf`
-  Reusable modules                  `aws_module_project/`
-  Multi-environment with modules    `aws_module_project/main.tf`
-  EKS cluster (v21.x)               `eks/`
-  VPC for Kubernetes                `eks/vpc.tf`
-  for_each & dynamic blocks         `examples/for_each.tf`
-  Lifecycle rules                   `examples/lifecycle.tf`
-  Import existing resources         `examples/import.tf`
-  Refactoring with moved            `examples/moved.tf`
-  Continuous assertions             `examples/check.tf`
-  Safe resource removal             `examples/removed.tf`
-  terraform test framework          `examples/terraform_test/`
+| Concept | Where to Find It |
+|---------|-----------------|
+| Provider & version constraints | `terraform.tf` |
+| Variables with validation | `variables.tf`, `examples/validation.tf` |
+| EC2, Security Groups, Key Pairs | `ec2.tf` |
+| user_data bootstrapping | `ec2.tf` + `script.sh` |
+| S3 with versioning & encryption | `s3.tf` |
+| DynamoDB tables | `dynamodb.tf` |
+| Outputs | `outputs.tf` |
+| Reusable modules | `aws_module_project/` |
+| Multi-environment with modules | `aws_module_project/main.tf` |
+| EKS cluster (v21.x) | `eks/` |
+| VPC for Kubernetes | `eks/vpc.tf` |
+| for_each & dynamic blocks | `examples/for_each.tf` |
+| Lifecycle rules | `examples/lifecycle.tf` |
+| Import existing resources | `examples/import.tf` |
+| Refactoring with moved | `examples/moved.tf` |
+| Continuous assertions | `examples/check.tf` |
+| Safe resource removal | `examples/removed.tf` |
+| terraform test framework | `examples/terraform_test/` |
 
 ------------------------------------------------------------------------
 
